@@ -156,8 +156,7 @@ void printListReverse( LLPtr currentPtr )
          while ( currentPtr->nextPtr != NULL ) {
             currentPtr = currentPtr->nextPtr;
          }
-   
-         puts( "The reversed list is:" );
+
    
          
          while ( currentPtr != NULL ) {
